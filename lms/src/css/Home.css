@@ -1,0 +1,53 @@
+/* Home.css */
+.hero {
+    display: flex;
+    background-color: #301934;
+    color: #ffc107;
+    height: 92vh;
+    padding-inline: 30px;
+  }
+  
+  .hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    max-width: 50%;
+  }
+  
+  .hero-text {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-style: oblique;
+    transition: filter 0.3s ease-in-out; 
+  }
+  
+  .hero-description {
+    font-size: 1.4rem;
+    max-width: 350px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+
+  .hero-text:hover,.hero-description:hover{
+    transform: scale(1.1);  
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8); 
+    color: #fff;  
+  }
+  
+  .hero-image {
+    flex: 1;
+    background: url('https://cdn.prod.website-files.com/60e615980cab093e6f2db3c3/60f1c68181d3a58052bf66e1_GettyImages-1223969703.jpeg') center;
+    height:95%;
+    border-radius: 50%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s ease-in-out;
+  }
+
+  
+.hero-image:hover {
+  transform: rotate(360deg);
+}
